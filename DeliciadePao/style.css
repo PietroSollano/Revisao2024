@@ -1,0 +1,43 @@
+.navbar {
+    background-color: rgb(238, 205, 20) !important;
+    font-size: 1rem;
+    box-shadow: 0px 4px 8px rgb(194, 136, 10);
+    background: linear-gradient(90deg, #cfaa02, #c59103);
+}
+.navbar .navbar-brand, .nav-link 
+{
+    color: white !important;
+}
+
+.navbar-logo 
+{
+    height: 100px;
+    width: auto;
+    max-width: 100px;
+}
+h1 {
+    color: #0c0200; 
+    margin-top: 20px;
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji",sans-serif
+}
+.items-nav {
+    list-style: none; /* Remove os marcadores da lista */
+    display: flex; /* Alinha os itens em linha */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
+    gap: 20px; /* Espaçamento entre os itens */
+    padding: 0; /* Remove o padding padrão da lista */
+    margin: 0; /* Remove o margin padrão da lista */
+}
+
+.items-nav li a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #333; /* Cor do texto */
+    font-size: 1rem; /* Tamanho do texto */
+    padding: 10px 15px; /* Espaçamento interno */
+    transition: color 0.3s ease; /* Animação suave na mudança de cor */
+}
+
+.items-nav li a:hover {
+    color: #fdfdfd; /* Cor ao passar o mouse */
+}

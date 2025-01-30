@@ -41,3 +41,30 @@ h1 {
 .items-nav li a:hover {
     color: #fdfdfd; /* Cor ao passar o mouse */
 }
+.list-social-links {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o espaçamento padrão */
+    display: flex; /* Exibe os itens na horizontal */
+    justify-content: center; /* Centraliza os itens */
+    gap: 20px; /* Adiciona um espaço entre os itens */
+}
+
+/* Remove o estilo padrão dos <li> */
+.list-social-links li {
+    display: inline-block; /* Garante que cada item seja exibido inline */
+}
+
+/* Alinhamento das imagens no centro */
+.list-social-links img {
+    display: block;
+    margin: 0 auto; /* Centraliza a imagem no link */
+}
+.card-body
+{
+    background-color: #f5f5f5;
+    
+}
+.btn-success
+{
+    background-color: #c59103;
+}
